@@ -7,11 +7,11 @@ A Raspberry Pi tutorial to make your own gamepad using a breadboard, momentary b
 
 For this tutorial Stuart recommended using the [Thonny IDE](http://thonny.org/), as you can toggle line-numbers. I also prefer the interface. Thonny is preinstalled on the current version of Raspbian.
 
-<img src="https://github.com/inferno986return/raspberry-pi-button-invaders/blob/master/images/breadboard.png" style="width: 212px; height: 162px;" alt=""/>
+![Breadboard](https://github.com/inferno986return/raspberry-pi-button-invaders/blob/master/images/breadboard.png)
 
 1. Carefully place the momementary buttons onto the breadboard, the first one at **E1** and **E3**, the second one at **E5** and **E7** and the third one at **E15** and **E17**. I found that the buttons I was provided had awkward connectors that required cutting off using wire cutters in order to place into the breadboard. They can be bent at a 90 degree angle or if short enough just placed directly into the breadboard.
 
-<img src="https://github.com/inferno986return/raspberry-pi-button-invaders/blob/master/images/wiring.png" style="width: 212px; height: 162px;" alt=""/>
+![Wiring](https://github.com/inferno986return/raspberry-pi-button-invaders/blob/master/images/wiring.png)
 
 2. Connect the jumper cables onto the top row of the breadboard, by referring to the diagram above and table below. The tutorial recommends ensuring the Raspberry Pi has been shutdown and unplugged while doing this I experienced no ill-effect from connecting the jumper cables while plugged in and powered on.
 
