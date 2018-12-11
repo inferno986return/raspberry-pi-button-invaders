@@ -7,9 +7,11 @@ A Raspberry Pi tutorial to make your own gamepad using a breadboard, momentary b
 
 For this tutorial Stuart recommended using the [Thonny IDE](http://thonny.org/), as you can toggle line-numbers. I also prefer the interface. Thonny is preinstalled on the current version of Raspbian.
 
-<img src="breadboard.png" style="width: 425px; height: 325px;" alt=""/>
+<img src="breadboard.png" style="width: 212px; height: 162px;" alt=""/>
 
 1. Carefully place the momementary buttons onto the breadboard, the first one at **E1** and **E3**, the second one at **E5** and **E7** and the third one at **E15** and **E17**. I found that the buttons I was provided had awkward connectors that required cutting off using wire cutters in order to place into the breadboard. They can be bent at a 90 degree angle or if short enough just placed directly into the breadboard.
+
+<img src="wiring.png" style="width: 212px; height: 162px;" alt=""/>
 
 2. Connect the jumper cables onto the top row of the breadboard, by referring to the diagram above and table below. The tutorial recommends ensuring the Raspberry Pi has been shutdown and unplugged while doing this I experienced no ill-effect from connecting the jumper cables while plugged in and powered on.
 
@@ -22,7 +24,7 @@ For this tutorial Stuart recommended using the [Thonny IDE](http://thonny.org/),
 |  **A15** - Wire to | Pin 33 (GPIO 13) |
 |  **A17** - Wire to | Pin 34 (GND)     |
 
-3. Once connected test the configuration works correctly by running `buttontest.py`, the correct output in the console should read as `Button 1`, `Button 2` and `Button 3` when each button is pressed. If this doesn't work check your connections or at worst isolate any faulty components and replace them.
+3. Once connected test the configuration works correctly by opening and running `buttontest.py`, the correct output in the console should read as `Button 1`, `Button 2` and `Button 3` when each button is pressed. If this doesn't work check your connections or at worst isolate any faulty components and replace them.
 
 4. Run `buttoninvaders.py` and set a high score. I plan on publishing my high score here for you to beat!
 
