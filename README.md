@@ -13,7 +13,7 @@ For this tutorial Stuart recommended using the [Thonny IDE](http://thonny.org/),
 
 ![Wiring](https://github.com/inferno986return/raspberry-pi-button-invaders/blob/master/images/wiring.png)
 
-2. Connect the jumper cables onto the top row of the breadboard, by referring to the diagram above and table below. The tutorial recommends ensuring the Raspberry Pi has been shutdown and unplugged while doing this I experienced no ill-effect from connecting the jumper cables while plugged in and powered on.
+2. Connect the jumper cables onto the top row of the breadboard, by referring to the diagram above and table below. The tutorial recommends ensuring the Raspberry Pi has been shutdown and unplugged while doing this, however I experienced no ill-effect from connecting the jumper cables while plugged in and powered on.
 
 |     Breadboard     |      Pi GPIO     |
 |:------------------:|:----------------:|
