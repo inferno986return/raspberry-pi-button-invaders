@@ -7,7 +7,7 @@ A Raspberry Pi tutorial to make your own gamepad using a breadboard, momentary b
 
 For this tutorial Stuart recommended using the [Thonny IDE](http://thonny.org/), as you can toggle line-numbers. I also prefer the interface. Thonny is preinstalled on the current version of Raspbian.
 
-<img src="breadboard.png" alt=""/>
+<img src="breadboard.png" width="425" height="325" alt=""/>
 
 1. Carefully place the momementary buttons onto the breadboard, the first one at **E1** and **E3**, the second one at **E5** and **E7** and the third one at **E15** and **E17**. I found that the buttons I was provided had awkward connectors that required cutting off using wire cutters in order to place into the breadboard. They can be bent at a 90 degree angle or if short enough just placed directly into the breadboard.
 
